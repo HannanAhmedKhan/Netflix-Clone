@@ -75,3 +75,96 @@
 .more-cards {
     padding-left: 6% ;
 }
+
+@media (max-width: 1200px) {
+    .hero_caption {
+        padding-left: 5%;
+        bottom: 5%;
+    }
+    
+    .caption-img {
+        max-width: 380px;
+    }
+    
+    .more-cards {
+        padding-left: 5%;
+    }
+}
+
+@media (max-width: 992px) {
+    .hero_caption {
+        padding-left: 4%;
+        bottom: 4%;
+    }
+    
+    .caption-img {
+        max-width: 340px;
+    }
+    
+    .hero_caption p {
+        font-size: 16px;
+        max-width: 600px;
+    }
+    
+    .more-cards {
+        padding-left: 4%;
+    }
+}
+
+@media (max-width: 800px) {
+    .hero_caption {
+        padding-left: 0;
+    }
+    .hero_caption p {
+        font-size: 15px;
+    }
+    .hero-btns {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .hero-btns .btn {
+        width: 100%;
+    }
+    .more-cards {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero_caption p {
+        font-size: 14px;
+        max-width: 100%;
+    }
+    
+    .caption-img {
+        max-width: 280px;
+        margin-bottom: 20px;
+    }
+    
+    .hero-btns .btn {
+        padding: 6px 15px;
+        font-size: 14px;
+    }
+    
+    .hero-btns .btn img {
+        width: 20px;
+    }
+}
+
+@media (max-height: 600px) and (orientation: landscape) {
+    .hero_caption {
+        bottom: 2%;
+    }
+    
+    .caption-img {
+        margin-bottom: 15px;
+    }
+    
+    .hero_caption p {
+        margin-bottom: 15px;
+    }
+    
+    .hero-btns {
+        margin-bottom: 30px;
+    }
+}
